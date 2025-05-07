@@ -11,16 +11,8 @@
 
 
 #Menú principal de bandera
-echo "Bienvenido al Menú de Metodologías de Desarrollo de Software"
-echo "Por favor seleccione una opción:
-    *Metodologías Ágiles (presione 'a')
-    *Metodologías Tradicionales (presione 't')
-    *Salir (presione 'x')"
-read -p "Opción: " main_opc
-#Validación de la opción seleccionada
-
-case $main_opc in
-    a )
+case $1 in
+    -a )
         while true; do
             echo "Bienvenido a la guía rápida de Agile, para continuar seleccione un tema:
                 *SCRUM
@@ -58,7 +50,7 @@ case $main_opc in
         done
 
         ;;
-    t ) 
+    -t ) 
         while true; do
             echo "Bienvenido a la guía rápida de metodologías tradicionales, para continuar seleccione un tema:
             *Cascada
