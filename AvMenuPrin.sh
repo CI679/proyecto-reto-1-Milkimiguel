@@ -1,19 +1,75 @@
-#Puntos a investigar de las metodologías
-    #[Cuándo aplicar]
-    #[Fase de requerimientos]
-    #[Fase de diseño]
-    #[Fase de implementación]
-    #[Fase de pruebas]
-    #[Fase de despliegue]
-    #[Fase de mantenimiento]
-    #[Ventajas]
-    #[Desventajas]
+#!/bin/bash
+
+# Función del submenú
+sub_menu() {
+
+    seccion="$1"
+
+        case "$seccion" in
+        SCRUM|XP|Kanban|Crystal)
+            carpeta="Ag"
+            ;;
+        Cascada|Espiral|ModeloV)
+            carpeta="Trad"
+            ;;
+        *)
+            echo "Error: metodología desconocida"
+            return
+            ;;
+    esac
+    archivo="$carpeta/${seccion}.inf"
 
 
-#Menú principal de bandera
+    while true; do
+        echo ""
+        echo "Usted está en la sección $seccion, seleccione la opción que desea utilizar:"
+        echo "1. Agregar información"
+        echo "2. Buscar"
+        echo "3. Eliminar información"
+        echo "4. Leer base de información"
+        echo "5. Volver al menú anterior"
+        echo "6. Salir"
+        read -p "Opción: " opcion
+
+        case $opcion in
+            1)
+                read -p "Ingrese el concepto: " concepto
+                read -p "Ingrese la definición: " definicion
+                echo "[$concepto] .- $definicion" >> "$archivo"
+                echo "Información agregada correctamente."
+                ;;
+            2)
+                read -p "Ingrese el concepto a buscar: " buscar
+                grep -i "\[$buscar\]" "$archivo" || echo "Concepto no encontrado."
+                ;;
+            3)
+                read -p "Ingrese el concepto a eliminar: " eliminar
+                sed -i "/\[$eliminar\]/Id" "$archivo"
+                echo "Si existía, la información fue eliminada."
+                ;;
+            4)
+                echo "Contenido de la base de información:"
+                cat "$archivo"
+                ;;
+            5)
+                break
+                ;;
+            6)
+                echo "Saliendo del programa..."
+                exit 0
+                ;;
+            *)
+                echo "Opción no válida, intenta de nuevo."
+                ;;
+        esac
+    done
+}
+
+# Menú principal de bandera
 case $1 in
     -a )
         while true; do
+            echo ""
             echo "Bienvenido a la guía rápida de Agile, para continuar seleccione un tema:
                 *SCRUM
                 *XP (Programación Extrema)
@@ -25,19 +81,19 @@ case $1 in
             case $opc in
                 SCRUM )
                     echo "Has seleccionado SCRUM"
-                    ./AvMenuAgil.inf -a SCRUM
+                    sub_menu SCRUM
                     ;;
                 XP )
                     echo "Has seleccionado XP"
-                    ./AvMenuAgil.inf -a XP
+                    sub_menu XP
                     ;;
                 Kanban )
                     echo "Has seleccionado Kanban"
-                    ./AvMenuAgil.inf -a Kanban
+                    sub_menu Kanban
                     ;;
                 Crystal )
                     echo "Has seleccionado Crystal"
-                    ./AvMenuAgil.inf -a Crystal
+                    sub_menu Crystal
                     ;;
                 x | X )
                     echo "Saliendo del programa..."
@@ -48,29 +104,29 @@ case $1 in
                     ;;
             esac
         done
-
         ;;
     -t ) 
         while true; do
+            echo ""
             echo "Bienvenido a la guía rápida de metodologías tradicionales, para continuar seleccione un tema:
-            *Cascada
-            *Espiral
-            *Modelo V
-            *Salir (presione 'x')"
+                *Cascada
+                *Espiral
+                *ModeloV
+                *Salir (presione 'x')"
             read -p "Tema: " opc
 
             case $opc in
                 Cascada )
                     echo "Has seleccionado Cascada"
-                    ./AvMenuTrad.inf -t Cascada
+                    sub_menu Cascada
                     ;;
                 Espiral )
                     echo "Has seleccionado Espiral"
-                    ./AvMenuTrad.inf -t Espiral
+                    sub_menu Espiral
                     ;;
                 ModeloV )
-                    echo "Has seleccionado Modelo V"
-                    ./AvMenuTrad.inf -t ModeloV
+                    echo "Has seleccionado ModeloV"
+                    sub_menu ModeloV
                     ;;
                 x | X )
                     echo "Saliendo del programa..."
@@ -86,8 +142,7 @@ case $1 in
         echo "Saliendo del programa..."
         exit 0
         ;;
-
     * )
-        echo "Opcion no valida, intenta de nuevo, por favor"
+        echo "Opción no válida, intenta de nuevo, por favor"
         ;;
 esac
