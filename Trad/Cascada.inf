@@ -1,0 +1,10 @@
+[Cascada] .- Se la llama waterfall o cascada porque cada tarea cae en cascada sobre el paso siguiente.
+[Cuándo implementar] .- Cuando el proyecto tiene un objetivo final bien definido. Cuando no hay restricciones de presupuesto ni de tiempo
+[Fase de requerimientos] .- Cada etapa del proceso. Quién trabajará en cada etapa. Dependencias clave. Los recursos necesarios. Un cronograma en el que se detalle cuánto tiempo durará cada etapa
+[Fase de diseño] .- Implica que el equipo que trabajará en el proyecto especifique qué hardware usará, además de cualquier otro detalle, como los lenguajes de programación y la interfaz de usuario.
+[Fase de implementacion] .- El equipo inicia un proceso de desarrollo pleno para elaborar el software que se ha previsto tanto en la fase de requerimientos como en la de diseño del sistema.
+[Fase de pruebas] .- Los ‘QA testers’ buscan cualquier error que deba repararse antes de la implementación del proyecto.
+[Fase de desarrollo] .- Es el momento en que se lanza el entregable definitivo a los clientes finales.
+[Fase de mantenimiento] .- Puede haber instancias en las que se descubra algún error nuevo o en las que sea necesario realizar alguna actualización del software.
+[Ventajas] .- Cuenta con bastante documentación de todo el proceso. Es fácil detectar errores. Excelente para crear procesos repetitivos. Muy fácil dar seguimiento
+[Desventajas] .- Es complicado volver a fases anteriores. Control de calidad llega muy tarde en el proceso.

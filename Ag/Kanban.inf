@@ -1,0 +1,11 @@
+[Kanban] .- Permite a los equipos visualizar sus flujos de trabajo y la carga de trabajo. En un tablero Kanban, el trabajo se muestra en un proyecto en forma de tablero organizado por columnas.
+[Cuando implementar] .- Cuando el equipo necesita flexibilidad, fluidez y enfoque en la eficiencia operativa más que en la entrega por ciclos fijos
+[Columnas para representar trabajo] .- Las columnas del tablero Kanban representan las distintas etapas del trabajo.
+[Pendiente] .- Columna donde se agrega el trabajo nuevo antes de ser asignado a un miembro del equipo.
+[En progreso] .- Trabajo que se encuentra siendo realizado en ese momento.
+[En espera] .- Trabajo que presenta cuellos de botella y es necesario pausar por el momento.
+[Finalizadas] .- Trabajo que ha sido finalizado. 
+[Visualizacion de trabajo] .- Una tarjeta Kanban de tarea comenzará su viaje en el lado izquierdo de tu tablero y, a medida que tu equipo trabaja en ella, recorrerá lentamente las siguientes etapas hasta que aterrice en la columna Finalizadas.
+[Limitación de trabajo en curso] .- Las tareas deben moverse rápidamente de una columna a otra en lugar de estancarse en un estado ambiguo de “trabajo en progreso” (wip).
+[Ventajas] .- Buen equilibrio entre demanda de trabajo y disponibilidad de equipo. Aumenta la claridad de tareas desempeñadas. Alta flexibilidad
+[Desventajas] .- No es tan común entre los equipos no técnicos. Demasiado trabajo en curso puede abrumar al equipo.

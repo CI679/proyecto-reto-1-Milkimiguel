@@ -1,0 +1,16 @@
+[Crystal] .- Marco ágil que se centra en las personas y sus interacciones, en lugar de en los procesos y las herramientas.
+[Clear] .- Para equipos de 8 personas o menos
+[Yellow] .- Para equipos de entre 10 a 20 personas
+[Orange] .- Para equipos de entre 20 a 50 personas
+[Red] .- Para equipos de entre 50 a 100 personas
+[Blue] .- Para equipos de entre 100 a 200 personas
+[Cuando implementar] .- Es una metodologia viable cuando se desea dar más libertad a los equipos para trabajar como consideren mayor efectividad
+[Puesta en escena] .- Consiste en la planificación del siguiente incremento, el equipo selecciona los requerimientos que serán implementados en el incremento y planifican lo que harán.
+[Revisiones] .- Cada incremento tiene varias iteraciones y cada iteración incluye las actividades de construcción, demostración y resumen de objetivos del incremento.
+[Monitoreo] .- Los progresos son monitoreados a partir de las diferentes entregas. El proceso se mide con los hitos clave y la estabilidad de las fases.
+[Paralelismo y flujo] .- Cuando el monitoreo nos brinda un estado suficientemente estable es hora de pasar a la próxima etapa.
+[Estrategia de diversidad holística] .- Se utiliza para dividir grandes equipos funcionales en equipos multifuncionales.
+[Técnica de puesta a punto de la metodología] .- Se basa en entrevistas y talleres para elaborar una metodología específica para el proyecto.
+[Puntos de vista de usuario] .- Dependiendo del color de la metodología Crystal que se elija se recomienda la opinión de dos usuarios por cada versión del producto (CC); también tres revisiones por parte del cliente en cada iteración (CO).
+[Ventajas] .- Facilita la comunicación del equipo. Permite gran flexibilidad
+[Desventajas] .- Falta de documentación puede llevar a la confusión. Menor visibilidad de progreso en los equipos

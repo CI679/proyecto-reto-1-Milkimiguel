@@ -1,0 +1,8 @@
+[Modelo V] .- Variante del modelo en cascada que enfatiza la verificación y validación en cada etapa del desarrollo de software.
+[Cuando implementar] .- Es una excelente opción cuando el proyecto requiere máxima calidad, trazabilidad y validación rigurosa
+[Fase de especificaciones] .- El modelo prevee un analisis de las especificaciones del sitema planificado
+[Fase funcional] .- El proyecto se completa después con requisitos funcionales y no funcionales para la arquitectura del sistema
+[Fase de diseño] .- A esta fase le sigue el diseño del sistema, en el que se planifican los componentes y las interfaces de este
+[Fase de codificacion] .- Una vez completadas estas fases, se puede diseñar en detalle la arquitectura del software
+[Ventajas] .- Optimización de la comunicación entre las partes involucradas a través de términos y responsabilidades claramente definidos. Ahorro de costes gracias al procesamiento transparente a lo largo de todo el ciclo de vida del producto.
+[Desventajas] .- Estructura rigida que permite una respuesta poco flexible ante cambios. Promueve un curso lineal del proyecto.

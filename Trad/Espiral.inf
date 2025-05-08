@@ -1,0 +1,7 @@
+[Espiral] .- Describe el ciclo de vida de un software por medio de espirales, que se repiten hasta que se puede entregar el producto terminado.
+[Ciclo de objetivo] .-  Se determinan conjuntamente con el cliente. Al mismo tiempo, se discuten posibles alternativas y se especifican las condiciones marco
+[Ciclo de análisis] .-  Se identifican y evalúan los riesgos potenciales. También se evalúan las alternativas existentes. Los riesgos son registrados, evaluados y luego reducidos utilizando prototipos, simulaciones y softwares de análisis.
+[Ciclo de desarrollo y prueba] .- Los prototipos se amplían y se añaden funcionalidades. El código real es escrito, probado y migrado a un entorno de prueba varias veces hasta que el software pueda ser implementado en un entorno productivo.
+[Ciclo de planificación para siguiente ciclo] .- Si se producen errores, se buscan soluciones, y si una alternativa es una mejor solución, se prefiere en el siguiente ciclo.
+[Ventajas] .- Los conflictos entre requisitos de software y diseño son fáciles de evitar. Se puede obtener retroalimentacion por parte de los usuarios, desarrolladores y clientes en las fases tempranas del proyecto
+[Desventajas] .- En las planificaciones para siguiente ciclo es probable que se formen bucles y el proyecto sea mas tardado si se toman decisiones erroneas

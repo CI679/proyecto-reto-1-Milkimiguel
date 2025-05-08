@@ -1,0 +1,9 @@
+[Extreme Programming] Extreme programming (XP) se enfoca en la velocidad y la calidad, utilizando ciclos de desarrollo cortos, comunicación constante con el cliente y pruebas exhaustivas
+[Cuando implementar] .- Implementar esta metodologia cuando el equipo de trabajo es más pequeño, asi como un equipo flexible y alto dominio en aspectos tecnicos de la codificacion
+[Planificacion] .- Determinar si el proyecto es viable y si se adapta al metodo XP, tomando en cuenta, historias de usuario, el valor comercial, nivel de prioridad y la etapa de desarrollo en que se encuentra dicho proyecto.
+[Gestion] .- Se recomienda usar un espacio de trabajo abierto donde todos los miembros del equipo puedan trabajar juntos.
+[Diseño] .- Empezar con el diseño más simple posible, ya que las iteraciones posteriores incrementarán su complejidad.
+[Codificacion] .- Todo el código debe cumplir con el estándar de programación, siempre en Pair Programming 
+[Prueba] .- Todo el código deberá someterse a pruebas unitarias antes de su lanzamiento.
+[Ventajas] .- Genera productos de muy alta calidad de forma efectiva.		
+[Desventajas] .- El proceso es muy riguroso y requiere alto dominio en codificación
