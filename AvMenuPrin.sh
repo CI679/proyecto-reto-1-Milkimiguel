@@ -32,9 +32,19 @@ sub_menu() {
         read -p "Opción: " opcion
 
         case $opcion in
+
             1)
                 read -p "Ingrese el concepto: " concepto
-                read -p "Ingrese la definición: " definicion
+                if [[ -z "$concepto" ]]; then
+                    echo "El concepto no puede estar vacío."
+                    continue
+                fi
+
+                read -p "Ingrese la definición: " definicion 
+                if [[ -z "$definicion" ]]; then
+                   echo "La definición no puede estar vacía."
+                   continue
+                fi
                 echo "[$concepto] .- $definicion" >> "$archivo"
                 echo "Información agregada correctamente."
                 ;;
