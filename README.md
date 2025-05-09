@@ -36,8 +36,8 @@ bash AvMenuPrin.sh -t   # Para metodologías tradicionales
 Para construir y ejecutar el contenedor Docker:
 
 ```
-docker AvMenuPrin.sh -t metodologia-bash
-docker AvMenuPrin.sh -it metodologia-bash
+docker build -t rebecap/menu-metodologias .
+docker run -it rebecap/menu-metodologias
 ```
 
 ## Ejecutando las pruebas
