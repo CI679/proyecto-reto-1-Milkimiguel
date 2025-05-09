@@ -29,6 +29,7 @@ sub_menu() {
         echo "4. Leer base de información"
         echo "5. Volver al menú anterior"
         echo "6. Salir"
+        echo ""
         read -p "Opción: " opcion
 
         case $opcion in
