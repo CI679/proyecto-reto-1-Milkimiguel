@@ -100,7 +100,7 @@ v1.0 - Versión inicial del proyecto
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENSE.md para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT.
 
 ## Agradecimientos
 
