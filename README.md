@@ -37,7 +37,7 @@ Para construir y ejecutar el contenedor Docker:
 
 ```
 docker pull rebecap/menu-metodologias
-docker run -it rebecap/menu-metodologias
+docker run -it rebecap/menu-metodologias -a
 docker run -it rebecap/menu-metodologias -t
 ```
 
